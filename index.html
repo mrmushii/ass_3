@@ -41,7 +41,7 @@
             </div>
             <ul
               tabindex="0"
-              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              class=" menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
               <li><a>Home</a></li>
               <li>
@@ -53,7 +53,7 @@
           </div>
           <a class="btn btn-ghost text-xl">Bike Dekho</a>
         </div>
-        <div class="navbar-center hidden lg:flex lg:justify-between">
+        <div class="navbar-start hidden lg:flex ">
           <ul class="menu menu-horizontal px-1">
             <li><a>Home</a></li>
             <li><a>Shop</a></li>
@@ -74,7 +74,7 @@
       <div class="carousel w-full bg-[rgb(231,111,81,10%)]">
         <div id="slide1" class="carousel-item relative w-full">
           <div
-            class="flex flex-col md:flex-row justify-center items-center p-8 md:p-[104px] gap-20 w-full"
+            class="flex flex-col lg:flex-row justify-center items-center p-8 md:p-[104px] gap-20 w-full"
           >
             <div class="flex flex-col text-center md:text-left space-y-6">
               <h1 class="text-4xl md:text-[60px] font-bold">
@@ -230,92 +230,68 @@
     <!-- Hero End -->
 
     <!-- Featured bike -->
-    <section
-      class="text-center px-[158px] py-[139px] flex flex-col justify-center items-center"
-    >
-      <h1 class="text-5xl font-semibold">Fetured Bikes In This Year</h1>
-      <p class="text-[rgba(231,111,81,1)]">Best bike collection</p>
-      <hr class="w-[58px] pb-11 text-[rgba(231,111,81,1)]" />
-      <div class="flex gap-36 justify-around">
-        <div class="w-[308px] h-[243px]">
-          <img src="./assets/images/others/extrabike.png" alt="" />
+    <section class="text-center px-4 md:px-[158px] py-[139px] flex flex-col justify-center items-center">
+    <h1 class="text-5xl font-semibold">Fetured Bikes In This Year</h1>
+    <p class="text-[rgba(231,111,81,1)]">Best bike collection</p>
+    <hr class="w-[58px] pb-11 text-[rgba(231,111,81,1)]" />
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-36">
+        <div class="w-full md:w-[308px] h-auto md:h-[243px]">
+            <img src="./assets/images/others/extrabike.png" alt="" class="w-full h-auto" />
         </div>
-        <div class="w-[308px] h-[243px]">
-          <img src="./assets/images/others/feature-bike.png" alt="" />
+        <div class="w-full md:w-[308px] h-auto md:h-[243px]">
+            <img src="./assets/images/others/feature-bike.png" alt="" class="w-full h-auto" />
         </div>
-        <div class="w-[308px] h-[243px]">
-          <img src="./assets/images/slider/bike3.png" alt="" />
+        <div class="w-full md:w-[308px] h-auto md:h-[243px]">
+            <img src="./assets/images/slider/bike3.png" alt="" class="w-full h-auto" />
         </div>
-      </div>
-    </section>
+    </div>
+</section>
 
     <!-- Feature bike end -->
 
     <!-- LatestNews -->
-    <section class="px-[155px]">
-      <h1 class="text-center pb-[50px] text-[48px] font-semibold">
-        Latest News
-      </h1>
-      <div class="flex justify-center gap-[20px]">
-        <div class="card bg-base-100 w-96 shadow-sm">
-          <figure>
-            <img src="./assets/images/others/latest1.png" alt="Shoes" />
-          </figure>
-          <div class="card-body">
-            <h2 class="card-title text-[28px] font-semibold">
-              Ducati XDIAVEL S-73
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
-              fermentum amet faucibus sed id nisi lectus at.
-            </p>
-            <div class="card-actions justify-start">
-              <button class="btn px-12 py-4 text-white bg-[#E76F51]">
-                Read More
-              </button>
+    <section class="px-4 md:px-[155px]">
+    <h1 class="text-center pb-[50px] text-[48px] font-semibold">Latest News</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="card bg-base-100 w-full shadow-sm">
+            <figure>
+                <img src="./assets/images/others/latest1.png" alt="Shoes" class="w-full" />
+            </figure>
+            <div class="card-body">
+                <h2 class="card-title text-[28px] font-semibold">Ducati XDIAVEL S-73</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                <div class="card-actions justify-start">
+                    <button class="btn px-12 py-4 text-white bg-[#E76F51]">Read More</button>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="card bg-base-100 w-96 shadow-sm">
-          <figure>
-            <img src="./assets/images/others/latest2.png" alt="Shoes" />
-          </figure>
-          <div class="card-body">
-            <h2 class="card-title text-[28px] font-semibold">
-              Motorcycles & Scooters
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
-              fermentum amet faucibus sed id nisi lectus at.
-            </p>
-            <div class="card-actions justify-start">
-              <button class="btn px-12 py-4 text-white bg-[#E76F51]">
-                Read More
-              </button>
+        <div class="card bg-base-100 w-full shadow-sm">
+            <figure>
+                <img src="./assets/images/others/latest2.png" alt="Shoes" class="w-full" />
+            </figure>
+            <div class="card-body">
+                <h2 class="card-title text-[28px] font-semibold">Ducati XDIAVEL S-73</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                <div class="card-actions justify-start">
+                    <button class="btn px-12 py-4 text-white bg-[#E76F51]">Read More</button>
+                </div>
             </div>
-          </div>
         </div>
-        <div class="card bg-base-100 w-96 shadow-sm">
-          <figure>
-            <img src="./assets/images/others/latest3.png" alt="Shoes" />
-          </figure>
-          <div class="card-body">
-            <h2 class="card-title text-[28px] font-semibold">
-              2021 Honda CBR500R
-            </h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus,
-              fermentum amet faucibus sed id nisi lectus at.
-            </p>
-            <div class="card-actions justify-start">
-              <button class="btn px-12 py-4 text-white bg-[#E76F51]">
-                Read More
-              </button>
+        <div class="card bg-base-100 w-full shadow-sm">
+            <figure>
+                <img src="./assets/images/others/latest3.png" alt="Shoes" class="w-full" />
+            </figure>
+            <div class="card-body">
+                <h2 class="card-title text-[28px] font-semibold">Ducati XDIAVEL S-73</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+                <div class="card-actions justify-start">
+                    <button class="btn px-12 py-4 text-white bg-[#E76F51]">Read More</button>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </section>
+        <!-- Repeat same structure for other two cards -->
+    </div>
+</section>
     <!-- End Latest -->
 
     <!-- Happy client -->
@@ -387,17 +363,14 @@
 
 <!-- FAQ Section -->
 <section class="px-4 md:px-[192px] py-[130px] bg-white">
-   <h2 class="text-center text-5xl font-semibold mb-12">Frequently Asked <span class="text-[#E76F51]">Questions</span></h2>
-    <div class="flex flex-col md:flex-row gap-12 items-center">
+    <h2 class="text-center text-3xl md:text-5xl font-semibold mb-12">Frequently Asked <span class="text-[#E76F51]">Questions</span></h2>
+    <div class="flex flex-col lg:flex-row gap-12 items-center">
         <!-- FAQ Image -->
-        <div class="flex-1">
-            <img src="./assets/images/others/faq.png" alt="FAQ Illustration" class="w-full max-w-[550px]">
+        <div class="w-full lg:w-1/2">
+            <img src="./assets/images/others/faq.png" alt="FAQ Illustration" class="w-full max-w-[550px] mx-auto" />
         </div>
-
         <!-- FAQ Content -->
-        <div class="flex-1 space-y-8">
-           
-            
+        <div class="w-full lg:w-1/2 space-y-4">
             <div class="join join-vertical w-full space-y-4">
                 <div class="collapse collapse-arrow bg-base-200">
                     <input type="radio" name="my-accordion-4" checked="checked"/> 
@@ -445,11 +418,10 @@
 
 <!-- Footer Section -->
 <footer class="bg-[#0B0D17] text-white">
-    <div class="px-4 md:px-[192px] py-[130px]">
+    <div class="px-4 md:px-[192px] py-16 md:py-[130px]">
         <div class="flex flex-col md:flex-row justify-between gap-8">
-            <!-- Download Section -->
             <div class="space-y-4">
-                <div class="flex gap-4 items-center">
+                <div class="flex flex-wrap gap-4 items-center">
                     <p>Download Now</p>
                     <p>License</p>
                 </div>
@@ -463,16 +435,14 @@
                 </div>
                 <p class="text-sm text-gray-400">© 2020 bike. All rights reserved</p>
             </div>
-
-            <!-- App Store Links -->
             <div class="space-y-4">
                 <h4 class="text-xl font-semibold">Get The App</h4>
-                <div class="flex flex-col gap-4">
-                    <a href="#" class="inline-block">
-                        <img src="./assets/images/others/ios.png" alt="App Store" class="h-10">
+                <div class="flex flex-row md:flex-col gap-4">
+                    <a href="#" class="inline-block w-32 md:w-auto">
+                        <img src="./assets/images/others/ios.png" alt="App Store" class="w-full h-auto" />
                     </a>
-                    <a href="#" class="inline-block">
-                        <img src="./assets/images/others/android.png" alt="Google Play" class="h-10">
+                    <a href="#" class="inline-block w-32 md:w-auto">
+                        <img src="./assets/images/others/android.png" alt="Google Play" class="w-full h-auto" />
                     </a>
                 </div>
             </div>
@@ -481,3 +451,6 @@
 </footer>
   </body>
 </html>
+
+
+  
