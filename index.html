@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <!-- Nav section start -->
+
+    <nav class="">
+      <div class="navbar flex justify-between bg-base-100 shadow-sm px-[156px]">
+        <div class="">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+            >
+              <li><a>Home</a></li>
+              <li>
+                <a>Shop</a>
+              </li>
+              <li><a>News</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl">Bike Dekho</a>
+        </div>
+        <div class="navbar-center hidden lg:flex lg:justify-between">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li><a>Shop</a></li>
+            <li><a>News</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+          <div>
+            <a class="btn px-12 py-4 text-white bg-[#E76F51]">Button</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End Nav -->
+
+    <!-- Hero Start -->
+
+    <section class="px-40 py-12">
+      <div class="carousel w-full bg-[rgb(231,111,81,10%)]">
+        <div id="slide1" class="carousel-item relative ">
+          <div class="flex justify-center  items-center p-[104px] gap-12">
+            <div class="flex flex-col">
+              <h1 class="text-[60px] font-bold">Ride-on R15 V4 <br> with Smile</h1>
+              <p>
+                Amet minim mollit non deserunt ullamco <br> est sit aliqua dolor do
+                amet sint. Velit officia consequat <br> duis enim velit mollit.
+              </p>
+              <div><button class="btn px-12 py-4 text-white bg-[#E76F51]">Purchase</button></div>
+            </div>
+            <div>
+              <img src="./assets/images/slider/bike1.png" class="w-[406px]" />
+            </div>
+          </div>
+          <div
+            class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between"
+          >
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
